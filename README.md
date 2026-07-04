@@ -55,3 +55,25 @@ gcc dumb\ 8-64x00.c -o dumb\ 8-64x00
 ```
 
 Then you'll see your program work. Under the hexadecimal code of your program you'll see the registers.
+
+# Errors
+
+`No disk found!`:
+If you run CPU before write the program to disk, you'll see this error.
+
+`Error, PC is out of RAM.` 
+You'll see it when PC is bigger than `64 KB`
+
+`Sorry, the programmer is dumb, he doesnt know how to write code well.`
+`I DONT KNOW HOW TO READ YOUR CODE.`
+When you are bad at your job.
+
+`You want to contact with register *** but I have only *** registers`
+`Are you good?`
+When you forget about you have only 8 registers.
+
+`File cant be open`
+When the script can't open disk.bin
+
+`Written error.`
+When size of written bytes != size of your program.
