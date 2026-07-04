@@ -1,6 +1,10 @@
 # dumbOS
 It's an emulator of the dumb 8-64x00 processor.
 
+`8` 8 registers, everyone contains number from 0 to 255.
+`64` 64 KB of RAM.
+`x00` Version in hexadecimal. The first.
+
 # How to use:
 Enter the write bootloader file from the cpu's folder.
 In the code you'll see the program's array:
