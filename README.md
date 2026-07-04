@@ -58,7 +58,7 @@ Then you'll see your program work. Under the hexadecimal code of your program yo
 
 # Errors
 
-`No disk found!`:
+`No disk found!`
 If you run CPU before write the program to disk, you'll see this error.
 
 `Error, PC is out of RAM.` 
